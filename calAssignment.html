@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8313a0486a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+                   <!-- center tag is for center align data in this tag -->
+    <center class="center"> 
+               <!-- input fiels are in the table -->
+        <table>
+            <tr class="tr">
+                <td>First Number:</td>
+                <td><input type="number" id="num1" class="num" placeholder="00"></td>
+            </tr>
+            <tr class="tr">
+                <td>Second Number:</td>
+                <td><input type="number" id="num2" class="num" placeholder="00"></td>
+            </tr>
+        </table>
+                  <!-- result field  -->
+        <div class="result" > Result:
+             <span id="result">00</span>
+        </div>
+            <!-- buttons for calculating data -->
+        <div class="btns">
+            <div>
+                <button id="add" onclick="add()" class="btn">+</button>
+                <button id="sub" onclick="sub()" class="btn">-</button>
+                <button id="multiply" onclick="multi()" class="btn">X</button>
+                <button id="divide" onclick="divide()" class="btn">/</button>
+            </div>
+            <button onclick="finish()" class="btn-c">C</button>
+    </div>
+                   <!-- Footer section stars here -->
+    <footer>
+        <div>
+            <h2>
+                Social Media Links
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://web.facebook.com/profile.php?id=100078942916154"> <i class="fa-brands fa-facebook"></i>Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/m_azam_officialy/?hl=en"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Muhamma63283351"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/muhammad-azam-03839b244/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+        <div class="about">
+            <h2>About</h2>
+            <h3>this calculator is made by Muhammad Azam</h3>
+            <h3>this is copyright property of Muhammad Azam</h3>
+            <h2>thanks!</h2>
+        </div>
+    </footer>
+                       <!-- Footer Section Ends Here -->
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

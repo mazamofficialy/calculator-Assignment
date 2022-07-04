@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+          /* main tag styling */
+.center{
+    width: 40%;
+    background-color:lightgray;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;;
+    align-items: center;
+    padding: 15px 0px 0px;
+}
+                       /* Input fields styling */
+.num{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 10px;
+    color: white; 
+    font-size: 25px;
+    margin: 15px 15px;
+}
+.tr{
+    font-size: 25px;
+}
+.result{
+    font-size: 40px;
+}
+.result span{
+    text-decoration: underline;
+} 
+     /* Calculating buttons styling */
+.btn{
+    width: 170px;
+    font-size: 70px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    margin-top: 15px;
+}
+.btn-c{
+    width: 200px;
+    margin-right: 30px;
+    border-radius:20px ;
+    font-size: 70px;
+    cursor: pointer;
+}
+      /* Footer tag styling */
+footer{
+    background-image: url(footer.png);
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+li{
+    list-style-type: none;
+    font-size: 25px;
+    color: aliceblue;
+    margin: 10px 0;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+h2{
+    color: aliceblue;
+    font-size: 35px;
+}ul{
+    margin: 0;
+}
+.about{
+    width: 50%;
+}
+h3{
+    color: aliceblue;
+}
